@@ -17,10 +17,10 @@ const Navbar = () => {
         
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Food Flash</a>
+    <a className="btn btn-ghost text-[#150B2B] text-2xl">Food Flash</a>
   </div>
   <div className="navbar-center lg:mr-24 hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal text-lg font-semibold text-[#150B2BB2]">
       <li><a>Home</a></li>
       <li><a>Receips</a></li>
       <li><a>About</a></li>
