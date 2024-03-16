@@ -8,16 +8,18 @@ import OurRecipes from './OurRecipes/OurRecipes'
 
 function App() {
 
-
+  const handleWantToCook =(singleRecipe)=>{
+    console.log('clicked',singleRecipe)
+  }
   return (
     <>
      <div className='container max-w-screen-lg mx-auto'>
       <Navbar></Navbar>
       <Banner></Banner>
       <OurRecipes></OurRecipes>
-      <div className='lg:flex gap-10'>
-        <div className='lg:w-2/3'><Recipes></Recipes></div>
-        <div className='lg:w-1/3'><WantToCooks></WantToCooks></div>
+      <div className='lg:flex gap-1'>
+        <div className='lg:w-[60%]'><Recipes handleWantToCook={handleWantToCook}></Recipes></div>
+        <div className='lg:w-[40%]'><WantToCooks></WantToCooks></div>
       </div>
       </div>
     </>

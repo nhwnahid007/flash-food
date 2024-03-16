@@ -2,7 +2,7 @@ import { CiClock2 } from "react-icons/ci";
 import { VscFlame } from "react-icons/vsc";
 import PropTypes from "prop-types";
 
-const SingleRecipe = ({ singleRecipe }) => {
+const SingleRecipe = ({ singleRecipe, handleWantToCook }) => {
   const {
     recipe_image,
     recipe_id,
@@ -45,7 +45,7 @@ console.log(recipe_id)
             </div>
           </div>
           <div className="card-actionsmb-5">
-            <button className="btn border-none px-10  bg-green-500 rounded-full  ">
+            <button onClick={()=>handleWantToCook(singleRecipe)}  className="btn border-none px-10  bg-green-500 rounded-full  ">
               Want to Cook
             </button>
           </div>
@@ -57,6 +57,7 @@ console.log(recipe_id)
 
 SingleRecipe.propTypes = {
   singleRecipe: PropTypes.object.isRequired,
+  handleWantToCook: PropTypes.func.isRequired
 };
 
 export default SingleRecipe;
