@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
-import { CiUser } from "react-icons/ci";
+import { FaUserCircle } from "react-icons/fa";
+
 const Navbar = () => {
     return (
         <div>
@@ -35,7 +36,7 @@ const Navbar = () => {
  
   <input type="text" className="border-none" placeholder="Search" />
 </label>
-    <a className="btn rounded-full text-2xl bg-green-500"><CiUser /></a>
+    <a className="btn rounded-full text-2xl bg-green-500"><FaUserCircle /></a>
   </div>
 </div> 
         </div>

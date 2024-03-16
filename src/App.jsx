@@ -2,6 +2,8 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
+import Recipes from './Components/Recipes/Recipes'
+import OurRecipes from './OurRecipes/OurRecipes'
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
      <div className='container max-w-screen-lg mx-auto'>
       <Navbar></Navbar>
       <Banner></Banner>
+      <OurRecipes></OurRecipes>
+      <Recipes></Recipes>
       </div>
     </>
   )

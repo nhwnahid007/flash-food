@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co/drQQMG1/meal-2069021-1280.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Classic Beef Lasagna",
+      "description": "Indulge in layers of hearty pasta, rich tomato sauce, savory ground beef, and creamy cheese in this timeless Italian favorite.",
+      "ingredients": [
+        "500 g lasagna noodles",
+        "800 g ground beef",
+        "600 ml tomato sauce",
+        "400 g ricotta cheese",
+        "200 g mozzarella cheese",
+        "100 g grated Parmesan cheese"
+      ],
+      "preparing_time": "60 min",
+      "calories": "480 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/pQ6J4jt/ai-generated-8586854-1280.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Stir-Fried Vegetables with Tofu",
+      "description": "Enjoy a colorful array of crisp vegetables and tofu stir-fried to perfection in a savory soy sauce, offering a delightful balance of flavors and textures.",
+      "ingredients": [
+        "300 g firm tofu",
+        "200 g broccoli florets",
+        "150 g snap peas",
+        "100 g carrots",
+        "50 g bell peppers",
+        "30 ml soy sauce"
+      ],
+      "preparing_time": "25 min",
+      "calories": "220 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/QYV4Hhf/salad-2629262-1280.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Grilled Chicken Caesar Salad",
+      "description": "Savor the freshness of crisp romaine lettuce, juicy grilled chicken, crunchy croutons, and tangy Caesar dressing in this classic salad that's both healthy and satisfying.",
+      "ingredients": [
+        "400 g chicken breast",
+        "200 g romaine lettuce",
+        "100 g cherry tomatoes",
+        "50 g Parmesan cheese",
+        "30 g croutons",
+        "20 ml Caesar dressing"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/VmsPZGp/soup-7083894-1280.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Homemade Vegetable Soup",
+      "description": "Warm your soul with a comforting bowl of homemade vegetable soup, brimming with a medley of nutritious vegetables in a flavorful broth.",
+      "ingredients": [
+        "500 g mixed vegetables (carrots, celery, potatoes)",
+        "200 g onions",
+        "1 liter vegetable broth",
+        "100 g pasta",
+        "50 g fresh herbs (parsley, thyme)",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "40 min",
+      "calories": "180 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/mJMPrW8/smoothie-4751819-1280.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Tropical Fruit Smoothie Bowl",
+      "description": "Transport yourself to a tropical paradise with this refreshing smoothie bowl, featuring a blend of exotic fruits topped with crunchy granola and coconut flakes.",
+      "ingredients": [
+        "2 ripe bananas",
+        "1 mango",
+        "1 kiwi",
+        "100 g pineapple chunks",
+        "50 g mixed berries",
+        "200 ml coconut milk",
+        "30 g granola",
+        "20 g shredded coconut"
+      ],
+      "preparing_time": "10 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/4262zYp/salmon-6353898-1280.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Grilled Salmon with Lemon Dill Sauce",
+      "description": "Delight your taste buds with succulent grilled salmon, infused with the bright flavors of lemon and dill, for a healthy and satisfying meal.",
+      "ingredients": [
+        "600 g salmon fillets",
+        "2 lemons",
+        "30 g fresh dill",
+        "50 ml olive oil",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "20 min",
+      "calories": "300 calories"
+    }
+  ]

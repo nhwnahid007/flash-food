@@ -17,7 +17,7 @@ const Banner = () => {
                 
             </div>
             <div className="flex justify-center gap-6">
-            <button className="btn rounded-full border-none bg-[#0BE58A] ">Explore Now</button>
+            <button className="btn rounded-full border-none text-black bg-[#0BE58A] ">Explore Now</button>
             <button className="btn rounded-full ">Our Feedback</button>
             </div>
             </div>
