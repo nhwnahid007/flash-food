@@ -12,8 +12,8 @@
         "200 g mozzarella cheese",
         "100 g grated Parmesan cheese"
       ],
-      "preparing_time": "60 min",
-      "calories": "480 calories"
+      "preparing_time": 60,
+      "calories": 480
     },
     {
       "recipe_image": "https://i.ibb.co/pQ6J4jt/ai-generated-8586854-1280.jpg",
@@ -28,8 +28,8 @@
         "50 g bell peppers",
         "30 ml soy sauce"
       ],
-      "preparing_time": "25 min",
-      "calories": "220 calories"
+      "preparing_time": 25,
+      "calories": 220
     },
     {
       "recipe_image": "https://i.ibb.co/QYV4Hhf/salad-2629262-1280.jpg",
@@ -44,8 +44,8 @@
         "30 g croutons",
         "20 ml Caesar dressing"
       ],
-      "preparing_time": "30 min",
-      "calories": "320 calories"
+      "preparing_time": 30,
+      "calories": 320
     },
     {
       "recipe_image": "https://i.ibb.co/VmsPZGp/soup-7083894-1280.jpg",
@@ -53,15 +53,15 @@
       "recipe_name": "Homemade Vegetable Soup",
       "description": "Warm your soul with a comforting bowl of homemade vegetable soup, brimming with a medley of nutritious vegetables in a flavorful broth.",
       "ingredients": [
-        "500 g mixed vegetables (carrots, celery, potatoes)",
+        "500 g mixed vegetables",
         "200 g onions",
         "1 liter vegetable broth",
         "100 g pasta",
         "50 g fresh herbs (parsley, thyme)",
         "Salt and pepper to taste"
       ],
-      "preparing_time": "40 min",
-      "calories": "180 calories"
+      "preparing_time": 40,
+      "calories": 180
     },
     {
       "recipe_image": "https://i.ibb.co/mJMPrW8/smoothie-4751819-1280.jpg",
@@ -71,15 +71,13 @@
       "ingredients": [
         "2 ripe bananas",
         "1 mango",
-        "1 kiwi",
         "100 g pineapple chunks",
         "50 g mixed berries",
         "200 ml coconut milk",
-        "30 g granola",
         "20 g shredded coconut"
       ],
-      "preparing_time": "10 min",
-      "calories": "250 calories"
+      "preparing_time": 10,
+      "calories": 250
     },
     {
       "recipe_image": "https://i.ibb.co/4262zYp/salmon-6353898-1280.jpg",
@@ -91,9 +89,10 @@
         "2 lemons",
         "30 g fresh dill",
         "50 ml olive oil",
-        "Salt and pepper to taste"
+        "Tasty flavoured salt",
+        "Pepper to taste"
       ],
-      "preparing_time": "20 min",
-      "calories": "300 calories"
+      "preparing_time": 20,
+      "calories": 300
     }
   ]

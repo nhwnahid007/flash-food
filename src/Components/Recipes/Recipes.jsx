@@ -10,7 +10,7 @@ const Recipes = () => {
     },[])
     console.log(recipes)
     return (
-       <div className="">
+       <div className="grid lg:grid-cols-2 gap-5">
         {
             recipes.map((singleRecipe,id) => <SingleRecipe
              key={id} 
