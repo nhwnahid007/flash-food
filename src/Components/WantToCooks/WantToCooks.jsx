@@ -47,6 +47,8 @@ const WantToCooks = ({ cook ,handleDelete,handleCurrentCook,newCook}) => {
       <div className="mt-24">
 
      <h1 className="text-center">Currently Cooking: {newCook.length} </h1>
+    <hr className="mx-20" />
+
 
           <table className="overflow-scroll">
             <thead>
