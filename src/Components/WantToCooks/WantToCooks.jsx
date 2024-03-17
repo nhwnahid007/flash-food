@@ -14,9 +14,9 @@ const WantToCooks = ({ cook ,handleDelete,handleCurrentCook,newCook}) => {
         <thead>
           <tr>
             <th></th>
-            <th className="px-6">Name</th>
+            <th className="px-2">Name</th>
             <th className="px-2">Time</th>
-            <th className="px-6">Calories</th>
+            <th className="px-2">Calories</th>
             <th></th>
           </tr>
         </thead>
@@ -24,9 +24,9 @@ const WantToCooks = ({ cook ,handleDelete,handleCurrentCook,newCook}) => {
           {cook.map((recipe, id) => (
             <tr className="bg-[#28282808] text-[#282828B2] text-xl" key={id}>
               <td className=''>{id + 1}</td>
-              <td className='px-6'>{recipe.recipe_name}</td>
-              <td className='px-2'>{recipe.preparing_time}</td>
-              <td className='px-6'>{recipe.calories}</td>
+              <td className='px-2'>{recipe.recipe_name}</td>
+              <td className='px-2 text-center'>{recipe.preparing_time} minutes</td>
+              <td className='px-2 text-center'>{recipe.calories}   Calories</td>
               <td className=''>
   <button 
     onClick={() => {
@@ -62,11 +62,11 @@ const WantToCooks = ({ cook ,handleDelete,handleCurrentCook,newCook}) => {
             </thead>
             <tbody >
               {newCook.map((recipe2, id) => (
-                <tr className="bg-[#28282808] text-[#282828B2] tex-xl" key={id}>
+                <tr className="bg-[#28282808] text-[#282828B2] text-xl" key={id}>
                   <td className=''>{id + 1}</td>
                   <td className='px-6'>{recipe2.recipe_name}</td>
-                  <td className='px-2'>{recipe2.preparing_time}</td>
-                  <td className='px-6'>{recipe2.calories}</td>
+                  <td className='px-2 text-center'>{recipe2.preparing_time} minutes</td>
+                  <td className='px-6 text-center'>{recipe2.calories} Calories</td>
                   <td className=''>
     </td>
 
@@ -81,8 +81,8 @@ const WantToCooks = ({ cook ,handleDelete,handleCurrentCook,newCook}) => {
             </tbody>
           </table>
           <div className="ml-32 lg:ml-40 text-[#282828B2] text-xl text-center gap-5 flex">
-            <p className="pt-4 bg-slate-200 rounded-md p-2">Total Time: <br /> {totalTime} </p>
-            <p className="bg-slate-200 rounded-md p-2 pt-4">Total Calories: <br /> {totalCalories} </p>
+            <p className="pt-4 bg-slate-200 rounded-md p-2">Total Time: <br /> {totalTime} minutes </p>
+            <p className="bg-slate-200 rounded-md p-2 pt-4">Total Calories: <br /> {totalCalories} Calories </p>
             
           </div>
       </div>
