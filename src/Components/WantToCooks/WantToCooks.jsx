@@ -6,7 +6,9 @@ const WantToCooks = ({ cook }) => {
   
   return (
     <div>
-     
+     <h1 className="text-center">Want To Cook: {cook.length} </h1>
+    <hr className="mx-20" />
+
       <table>
         <thead>
           <tr>
