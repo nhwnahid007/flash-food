@@ -80,7 +80,7 @@ const WantToCooks = ({ cook ,handleDelete,handleCurrentCook,newCook}) => {
               ))}
             </tbody>
           </table>
-          <div className="ml-60 text-[#282828B2] text-xl text-center gap-5 flex">
+          <div className="ml-32 lg:ml-40 text-[#282828B2] text-xl text-center gap-5 flex">
             <p className="pt-4 bg-slate-200 rounded-md p-2">Total Time: <br /> {totalTime} </p>
             <p className="bg-slate-200 rounded-md p-2 pt-4">Total Calories: <br /> {totalCalories} </p>
             
