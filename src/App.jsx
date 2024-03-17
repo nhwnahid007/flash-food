@@ -10,7 +10,8 @@ import { ToastContainer,toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  const [cook,setCook] =useState([])
+  const [cook,setCook] =useState([]);
+  const [newCook,setNewCook]=useState([]);
 
   const handleWantToCook =(singleRecipe)=>{
     console.log(singleRecipe)
@@ -24,9 +25,16 @@ function App() {
     }
   }
 
-  
-  console.log(cook)
- 
+  const handleDelete = (id) =>{
+    const newCook=cook.filter(item => item.recipe_id !==id)
+    setCook(newCook)
+    handleCurrentCook(newCook)
+  }
+
+  const handleCurrentCook=(currentCook)=>{
+    console.log(currentCook)
+    setNewCook([...newCook,currentCook])
+  }
   return (
     <>
      <div className='container  mx-auto'>
@@ -39,6 +47,9 @@ function App() {
         <div className='lg:w-[40%]'>
           <WantToCooks
           cook={cook}
+          handleDelete={handleDelete}
+          handleCurrentCook={handleCurrentCook}
+          newCook={newCook}
         ></WantToCooks></div>
       </div>
       </div>
