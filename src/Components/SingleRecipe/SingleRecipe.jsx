@@ -27,7 +27,7 @@ console.log(recipe_id)
           <div>
             <hr className="opacity-50" />
           </div>
-          <p className="text-lg p-0 h-20 text-[#282828]">Ingredients: {ingredients.length}</p>
+          <p className="text-lg p-0 text-[#282828]">Ingredients: {ingredients.length}</p>
           {ingredients.map((ingredient, id) => (
             <div className="text-lg lg:mb-2 text-[#878787] " key={id}>
               <li className="list-disc">{ingredient}</li>
