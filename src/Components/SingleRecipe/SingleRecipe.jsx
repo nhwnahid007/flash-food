@@ -19,7 +19,7 @@ console.log(recipe_id)
       <div className="card  bg-base-100 shadow-xl">
         <img className="h-52 p-5 rounded-3xl" src={recipe_image} alt="" />
 
-        <div className="card-body  h-[550px] ">
+        <div className="card-body  h-[555px] ">
           <div>
             <h1 className="text-xl">{recipe_name}</h1>
             <p className="text-[#878787]">{description.slice(0, 100)}</p>

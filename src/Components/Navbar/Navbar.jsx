@@ -30,7 +30,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end space-x-3 md:mr-5">
-  <label className="input w-[30%] pl-16 lg:w-full lg:pl-5 bg-[#150B2B0D] rounded-full  flex justify-center items-center lg:gap-2">
+  <label className="input w-[30%] pl-16 lg:w-full lg:pl-5 bg-[#150B2B0D] rounded-full  flex  items-center lg:gap-2">
 
   <div className="text-2xl hidden md:flex font-bold"><CiSearch /></div>
  

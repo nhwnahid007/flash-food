@@ -8,6 +8,7 @@ import WantToCooks from './Components/WantToCooks/WantToCooks'
 import OurRecipes from './OurRecipes/OurRecipes'
 import { ToastContainer,toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [cook,setCook] =useState([]);
@@ -52,6 +53,7 @@ function App() {
           newCook={newCook}
         ></WantToCooks></div>
       </div>
+      <Footer></Footer>
       </div>
     </>
   )
